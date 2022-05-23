@@ -1,0 +1,65 @@
+{
+    "a": {
+        "path": [
+            "b"
+        ],
+        "color": ""
+    },
+    "b": {
+        "path": [
+            "a",
+            "c"
+        ],
+        "color": ""
+    },
+    "c": {
+        "path": [
+            "b",
+            "d",
+            "g"
+        ],
+        "color": ""
+    },
+    "d": {
+        "path": [
+            "c",
+            "e"
+        ],
+        "color": ""
+    },
+    "e": {
+        "path": [
+            "d",
+            "f"
+        ],
+        "color": ""
+    },
+    "f": {
+        "path": [
+            "e",
+            "i"
+        ],
+        "color": ""
+    },
+    "g": {
+        "path": [
+            "c",
+            "h"
+        ],
+        "color": "green"
+    },
+    "h": {
+        "path": [
+            "g",
+            "i"
+        ],
+        "color": "red"
+    },
+    "i": {
+        "path": [
+            "h",
+            "f"
+        ],
+        "color": "green"
+    }
+}
