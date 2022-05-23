@@ -18,7 +18,8 @@ Options:
   ```
   
   # Unit test
-  Test automático de las partes mas importantes  
+  Test automático de las partes más importantes  
+  
   test_0: Prueba del método Mapa, el cual produce una matriz con los caminos y distancias posibles para utilizar en djikstra  
   test_1: Prueba que el método (utilizado por djikstra) de mínima distancia funcione correctamente  
   test_2: Prueba que el algoritmo de Djikstra entrege el resultado correcto  
