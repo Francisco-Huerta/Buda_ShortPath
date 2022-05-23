@@ -9,8 +9,8 @@ import unittest
 import pickle
 
 # This are the classes we want to test. So, we need to import them
-from shortPathFinal import Mapa as MapaClass
-from shortPathFinal import Graph as GraphClass
+from shortPath import Mapa as MapaClass
+from shortPath import Graph as GraphClass
 
 
 # Importing a dictionary containing the demoNetwork for testing
