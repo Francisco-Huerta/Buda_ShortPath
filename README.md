@@ -10,7 +10,12 @@ Options:
   --color TEXT        Train color, green, red [dont add for colorless]
   --help              Show this message and exit.
   ```
+  Run example:
   
+  ```console
+  python.exe .\shortPathFinal.py --filename=json_data.json --origin=f  --color=green --destination a
+  [['f', 'e', 'd', 'c', 'b', 'a'], ['f', 'i', 'g', 'c', 'b', 'a']]
+  ```console
   
   # Unit test
   Test automático de las partes mas importantes
