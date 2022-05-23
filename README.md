@@ -1,7 +1,7 @@
-# Buda_ShortPath
+# shortPath
 En la red de metro algunas estaciones pueden tener un color asociado (Rojo o Verde) que indica que un tren exprés de color Verde pasará solo por estaciones sin color o Verde, y un tren exprés de color Rojo pasará solo por estaciones sin color o Roja.
 ```console
-Usage: shortPathFinal.py [OPTIONS]
+Usage: shortPath.py [OPTIONS]
 
 Options:
   --filename TEXT     Network file, in json format [required]
