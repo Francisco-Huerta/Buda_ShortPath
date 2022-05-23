@@ -41,9 +41,9 @@ class Test(unittest.TestCase):
     """
     The basic class that inherits unittest.TestCase
     """
-    m = MapaClass()  # instantiate the Person Class
+    m = MapaClass()  # instantiate Mapa Class    
+    g = GraphClass() # instantiate Graph Class
     
-    g = GraphClass()
     # test case function to check the mapear function
     def test_0_mapear(self):
         print("\nStart Mapa test\n")
