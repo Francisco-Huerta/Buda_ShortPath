@@ -19,7 +19,7 @@ with open("demoNetwork", "rb") as fp:   # Unpickling
 
 # Importing lists containing expectedMatrix (for djikstra), translateDict
 # (for translating the nodes to integer), expectedResult (shortest path result)
-# items in each list are orederd by color: first is Colorless, 
+# items in each list are ordered by color: first is Colorless, 
 # The second is red, ant the third is green
 
 with open("expectedMatrix", "rb") as fp:   # Unpickling
