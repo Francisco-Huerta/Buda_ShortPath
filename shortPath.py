@@ -207,8 +207,8 @@ def runShortPath(filename, origin, destination, color):
         quit()
     
     if data[origin]['color'] or data[destination]['color']:
-        if data[origin]['color'] != color or data[origin]['color'] != color:
-            click.echo("The origin node and/or the destination node cant be of color")
+        if data[origin]['color'] != color or data[destination]['color'] != color:
+            click.echo("The origin and the destination node must be of the same color as the train")
             quit()
     
     m = Mapa()
